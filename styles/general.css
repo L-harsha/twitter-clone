@@ -1,0 +1,20 @@
+.all{
+    display: grid;
+    grid-template-columns: 404px 600px 1fr;
+    font-family: roboto, Arial;
+}
+body{
+    margin: 0px;
+    /* background-color: aqua; */
+}
+p{
+    font-family: roboto, Arial;
+    font-size: 15px;
+    margin: 0px;
+
+}
+.main-part{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}

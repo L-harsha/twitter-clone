@@ -1,0 +1,123 @@
+.post-container{
+    display: flex;
+    width: 600px;
+    border-bottom: 1px solid rgb(231, 227, 227);
+}
+.post{
+    display: flex;
+    padding: 0px 16px;
+    padding-top: 12px;
+    flex: 1;
+}
+.post-user-left{
+    display: flex;
+    margin-right: 12px;
+}
+.post-user-pic.container{
+    display: flex;
+    width: 52px;
+    height: 52px;
+}
+.post-user-pic{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.post-user-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.post-user-info{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+.post-user-info-left{
+    display: flex;
+    /* background-color: aqua; */
+}
+.post-name-container{
+    display: flex;
+}
+.post-name{
+    font-weight: 700;
+}
+.post-user-name-container{
+    display: flex;
+    margin-left: 2px;
+}
+.post-user-name{
+    color: gray;
+    font-size: 14px;
+}
+.post-tick-container{
+    display: flex;
+    padding-left: 4px;
+}
+.post-tick{
+    width: 15px;
+    height: 15px;
+}
+.post-middledot{
+    font-size: 14px;
+    color: gray;
+    padding: 0px 4px;
+}
+.post-time{
+    font-size: 14px;
+}
+.post-more{
+    display: flex;
+}
+.post-more-img{
+    height: 18px;
+    width: 18px;
+}
+.post-tweet-message{
+    display: flex;
+    flex: 1;
+    color: rgb(51, 51, 51);
+}
+.post-img-container{
+    padding-top: 7px;
+    display: flex;
+    flex: 1;
+}
+.post-img{
+    width: 508px;
+    object-fit: contain;
+    border-radius: 25px;
+}
+.post-user-react{
+    display: flex;
+    flex: 1;
+}
+.post-user-react-container{
+    display: flex;
+    margin-top: 12px;
+    column-gap: 8px;
+    width: 425px;
+    justify-content: space-between;
+}
+.react-container{
+    display: flex;
+}
+/* .react-icon-container{
+    border-radius: ;
+    transition: background-color 0.15s;
+}
+.react-icon-container:hover{
+    background-color: rgba(29, 155, 240, 0.4);;
+} */
+.react-icon{
+    width: 14px;
+    height: 14px;
+}
+.react-cointer{
+    padding: 0px 12px;
+    font-size: 12px;
+    padding-top: 2px;
+}

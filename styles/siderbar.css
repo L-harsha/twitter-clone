@@ -1,0 +1,114 @@
+.left-section{
+    display: flex;
+    height: 900px;
+    border-right: solid ;
+    border-right-width: 1px;
+    border-right-color: rgb(231, 227, 227);
+    background-color: white;
+    justify-content: end ;
+    z-index: 102;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 404px;
+}
+.left-section-cointer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    bottom: 0;
+}
+.sidebar{
+    width:259px;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: column;
+}
+.fun-twitter{
+    display: flex;
+    margin: 6px;
+    padding: 6px;
+
+}
+.image-twitter{
+    width:35.25px;
+    height: 35.25px;    
+}
+
+.sidebar-link,
+.sidebar-top{
+    display: flex;
+}
+
+.image{
+    width:26.25px;
+    height: 26.25px;
+}
+.fun{
+    display: flex;
+    padding: 14px;
+}
+.icon-info{
+    flex: 1;
+    font-family: roboto, arial;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 16px;
+    font-weight: 400;
+    
+}
+.fun-twitter:hover,
+.profile-deatils:hover,
+.sidebar-link:hover .fun{
+    background-color: rgb(235, 235, 235);
+    border-radius: 50px;
+    cursor: pointer;
+}
+.tweet-button {
+    display: flex;
+    background-color: rgb(29, 155, 240);
+    color : white;
+    font-size: 17px;
+    font-weight: bold;
+    width: 180px;
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 12px;
+    justify-content: center;
+    margin: 10px 0px;
+    transition: background-color 0.15s;
+}
+.tweet-button:hover{
+    background-color: rgb(24, 140, 216);
+}
+
+.profile-deatils{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.profile-pic{
+    width:40px;
+    border-radius: 20px;
+}
+.profile-name-username{
+    flex:1;
+    font-size: 15px;
+    margin: 0px 12px;
+}
+.profile-name{
+    font-family: roboto, Arial;
+    font-weight: 700;
+    margin-bottom: 2px ;
+}
+.profile-username{
+    color: rgb(113, 118, 123);
+}
